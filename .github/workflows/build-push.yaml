@@ -27,5 +27,5 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: samiselim/nginx-app:v1
+                tags: samiselim/nginx-app:${{inputs.image-version}}
 
